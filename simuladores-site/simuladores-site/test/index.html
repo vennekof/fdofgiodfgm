@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#07070c" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Test: ¿Qué simulador sos? | Los Simuladores</title>
+  <meta name="description" content="Test fan de Los Simuladores: descubrí si tu estilo es más Santos, Ravenna, Lamponne o Medina. Siete preguntas, resultado al instante."/>
+  <link rel="canonical" href="https://lossimuladoresonline.online/test/"/>
+  <meta name="robots" content="index,follow"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Los Simuladores Online"/>
+  <meta property="og:locale" content="es_AR"/>
+  <meta property="og:url" content="https://lossimuladoresonline.online/test/"/>
+  <meta property="og:title" content="Test: ¿Qué simulador sos?"/>
+  <meta property="og:description" content="¿Sos el cerebro del plan, el actor, el de la logística o el psicólogo? Test corto de Los Simuladores."/>
+  <meta property="og:image" content="https://lossimuladoresonline.online/og-image.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Test: ¿Qué simulador sos?"/>
+  <meta name="twitter:description" content="Test fan de Los Simuladores — resultado al instante."/>
+  <meta name="twitter:image" content="https://lossimuladoresonline.online/og-image.jpg"/>
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <style>
+    .quiz-wrap { max-width: 640px; }
+    .quiz-progress {
+      height: 4px; background: #1a1a24; border-radius: 4px; margin: 0 0 1.25rem; overflow: hidden;
+    }
+    .quiz-progress i {
+      display: block; height: 100%; width: 0%; background: linear-gradient(90deg, #3dff7a, #00d4ff);
+      transition: width .25s ease;
+    }
+    .quiz-q {
+      margin: 0 0 1rem; padding: 1.1rem 1.2rem; border-radius: 12px;
+      background: #121218; border: 1px solid #2a2a35;
+    }
+    .quiz-q h3 { font-size: 1.02rem; margin: 0 0 0.75rem; line-height: 1.35; }
+    .quiz-q label {
+      display: block; margin: 0.4rem 0; padding: 0.55rem 0.65rem; border-radius: 8px;
+      cursor: pointer; color: #c8c8d0; border: 1px solid transparent;
+    }
+    .quiz-q label:hover { background: #1a1a22; }
+    .quiz-q input { margin-right: 0.45rem; accent-color: #3dff7a; }
+    .quiz-q label:has(input:checked) {
+      border-color: rgba(61,255,122,.4); background: rgba(61,255,122,.06);
+    }
+    #btnQuiz {
+      margin-top: 0.35rem; padding: 0.75rem 1.4rem; border: none; border-radius: 8px;
+      background: #3dff7a; color: #0a0a0c; font-weight: 700; cursor: pointer; font-size: 0.95rem;
+    }
+    #btnQuiz:hover { filter: brightness(1.06); }
+    .quiz-result {
+      display: none; margin-top: 1.5rem; padding: 1.35rem 1.4rem; border-radius: 12px;
+      border: 1px solid rgba(61,255,122,.35); background: #0e1612;
+    }
+    .quiz-result.show { display: block; }
+    .quiz-result .tag {
+      display: inline-block; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase;
+      color: #3dff7a; margin-bottom: 0.35rem;
+    }
+    .quiz-result h2 { margin: 0 0 0.55rem; font-size: 1.35rem; }
+    .quiz-result p { color: #b8c0b8; line-height: 1.55; margin: 0.4rem 0; }
+    .related-box {
+      margin-top: 2.5rem; padding: 1.25rem 1.35rem; border-radius: 12px;
+      border: 1px solid #2a2a35; background: #121218;
+    }
+    .related-box h2 { font-size: 1.05rem; margin: 0 0 0.75rem; }
+    .related-links { list-style: none; padding: 0; margin: 0; }
+    .related-links li { margin: 0.4rem 0; }
+    .related-links a { color: #7dcea0; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="/" class="logo" title="Inicio">
+      <span class="logo-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4.5" fill="#f5c518"/><g stroke="#f5c518" stroke-width="1.5" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.9" y1="4.9" x2="7" y2="7"/><line x1="17" y1="17" x2="19.1" y2="19.1"/><line x1="4.9" y1="19.1" x2="7" y2="17"/><line x1="17" y1="7" x2="19.1" y2="4.9"/></g></svg>
+      </span>
+      <span>LOS SIMULADORES</span>
+    </a>
+  </header>
+  <main class="page-main quiz-wrap">
+    <h1>Test: ¿Qué simulador sos?</h1>
+    <p>Operación rápida: 7 preguntas inspiradas en el equipo. No hay respuesta “correcta”; el resultado es para bancarte (o discutirlo con amigos).</p>
+    <div class="quiz-progress" aria-hidden="true"><i id="quizBar"></i></div>
+
+    <form id="quizForm">
+      <div class="quiz-q" data-step="1">
+        <h3>1. Llega un “cliente” desesperado. ¿Qué mirás primero?</h3>
+        <label><input type="radio" name="q1" value="santos" required/> Si el problema tiene solución… y a qué costo</label>
+        <label><input type="radio" name="q1" value="medina"/> Qué le duele de verdad (no solo lo que dice)</label>
+        <label><input type="radio" name="q1" value="ravenna"/> Si vas a necesitar un personaje memorable</label>
+        <label><input type="radio" name="q1" value="lamponne"/> Qué hace falta conseguir antes de las 18</label>
+      </div>
+      <div class="quiz-q" data-step="2">
+        <h3>2. El plan se complica a mitad de la operación. Vos…</h3>
+        <label><input type="radio" name="q2" value="santos" required/> Recalculás en silencio y das una orden clara</label>
+        <label><input type="radio" name="q2" value="ravenna"/> Improvisás el rol hasta que el otro se lo crea</label>
+        <label><input type="radio" name="q2" value="lamponne"/> Salís a resolver el problema físico (auto, cable, acceso)</label>
+        <label><input type="radio" name="q2" value="medina"/> Frenás un segundo: alguien está por quebrarse</label>
+      </div>
+      <div class="quiz-q" data-step="3">
+        <h3>3. En la guarida del equipo, tu lugar natural es…</h3>
+        <label><input type="radio" name="q3" value="santos" required/> El pizarrón / la cabeza del plan</label>
+        <label><input type="radio" name="q3" value="ravenna"/> Probándote el próximo disfraz</label>
+        <label><input type="radio" name="q3" value="lamponne"/> Revisando equipos, llaves y tiempos</label>
+        <label><input type="radio" name="q3" value="medina"/> Charlando con el que está más nervioso</label>
+      </div>
+      <div class="quiz-q" data-step="4">
+        <h3>4. Te ofrecen un trabajo “imposible”. Tu primera reacción:</h3>
+        <label><input type="radio" name="q4" value="santos" required/> “Se puede. Pero hay condiciones.”</label>
+        <label><input type="radio" name="q4" value="ravenna"/> “Si hay público, mejor.”</label>
+        <label><input type="radio" name="q4" value="lamponne"/> “Decime qué necesitamos y para cuándo.”</label>
+        <label><input type="radio" name="q4" value="medina"/> “¿Por qué esta persona pide justo esto?”</label>
+      </div>
+      <div class="quiz-q" data-step="5">
+        <h3>5. ¿Qué te enorgullece más de una operación exitosa?</h3>
+        <label><input type="radio" name="q5" value="santos" required/> Que el plan haya sido elegante de punta a punta</label>
+        <label><input type="radio" name="q5" value="ravenna"/> Que nadie haya dudado de tu personaje</label>
+        <label><input type="radio" name="q5" value="lamponne"/> Que todo haya llegado a tiempo, sin drama</label>
+        <label><input type="radio" name="q5" value="medina"/> Que el cliente (o el “objetivo”) haya cambiado por dentro</label>
+      </div>
+      <div class="quiz-q" data-step="6">
+        <h3>6. Un compañero se manda una macana. Vos…</h3>
+        <label><input type="radio" name="q6" value="santos" required/> Corregís el rumbo y seguís; ya hablarán después</label>
+        <label><input type="radio" name="q6" value="ravenna"/> Sacás pecho y tapás el error con más actuación</label>
+        <label><input type="radio" name="q6" value="lamponne"/> Arreglás lo técnico antes de que se note</label>
+        <label><input type="radio" name="q6" value="medina"/> Te fijás si hay culpa o miedo detrás del error</label>
+      </div>
+      <div class="quiz-q" data-step="7">
+        <h3>7. Si la serie fuera sobre tu vida, el capítulo se llamaría…</h3>
+        <label><input type="radio" name="q7" value="santos" required/> “El arquitecto del plan”</label>
+        <label><input type="radio" name="q7" value="ravenna"/> “Máscaras”</label>
+        <label><input type="radio" name="q7" value="lamponne"/> “Siempre a tiempo”</label>
+        <label><input type="radio" name="q7" value="medina"/> “Lo que nadie dice”</label>
+      </div>
+      <button type="submit" id="btnQuiz">Cerrar operación · Ver resultado</button>
+    </form>
+
+    <div class="quiz-result" id="quizResult" aria-live="polite">
+      <div class="tag">Resultado de la operación</div>
+      <h2 id="resName"></h2>
+      <p id="resText"></p>
+      <p id="resExtra"></p>
+      <p><a href="/personajes/">Ver el perfil de los cuatro →</a> · <a href="#" id="retryQuiz">Repetir test</a></p>
+    </div>
+
+    <section class="related-box">
+      <h2>Explorá más</h2>
+      <ul class="related-links">
+        <li><a href="/sinopsis/">Sinopsis de la serie</a></li>
+        <li><a href="/personajes/">Los cuatro personajes</a></li>
+        <li><a href="/temporada-1/">Capítulos temporada 1</a></li>
+        <li><a href="/temporada-2/">Capítulos temporada 2</a></li>
+        <li><a href="/">Volver al inicio</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div>© 2026 · Sitio no oficial de Los Simuladores</div>
+    <div class="footer-btns">
+      <a class="footer-btn" href="/">Inicio</a>
+      <a class="footer-btn" href="/sinopsis/">Sinopsis</a>
+      <a class="footer-btn" href="/personajes/">Personajes</a>
+      <a class="footer-btn" href="/test/">Test</a>
+      <a class="footer-btn" href="/ayuda/">Ayuda</a>
+    </div>
+  </footer>
+  <script>
+  (function () {
+    var bios = {
+      santos: {
+        name: "Mario Santos",
+        text: "Sos el tablero de la operación. Pensás tres jugadas adelante, no te asusta poner reglas y preferís un plan limpio antes que el show. Cuando el resto improvisa, vos ya sabías que iba a pasar.",
+        extra: "Frase de oficina: “Se puede hacer… con condiciones.”"
+      },
+      ravenna: {
+        name: "Emilio Ravenna",
+        text: "Sos el que necesita un escenario (aunque sea una oficina prestada). Te gusta el riesgo de que te crean otra persona y tenés ego sano: si la operación pide un personaje grande, levantás la mano.",
+        extra: "Cuidado: a veces el disfraz se siente más cómodo que la realidad."
+      },
+      lamponne: {
+        name: "Pablo Lamponne",
+        text: "Sin vos el plan es solo teoría. Cables, horarios, vehículos, “ya lo traigo”: el equipo respira porque alguien se ocupó de lo concreto. No buscás el aplauso; buscás que funcione.",
+        extra: "Si algo falla a las 17:50, probablemente ya estés en camino."
+      },
+      medina: {
+        name: "Gabriel Medina",
+        text: "Mirás lo que el resto no prioriza: el miedo, la culpa, el deseo raro del cliente. Entendés que a veces el “enemigo” no es una empresa, sino una herida. Tu arma es la charla justa en el momento justo.",
+        extra: "Pregunta típica tuya: “¿Y eso cómo te hace sentir… de verdad?”"
+      }
+    };
+
+    var form = document.getElementById("quizForm");
+    var bar = document.getElementById("quizBar");
+    var total = 7;
+
+    function updateBar() {
+      var n = 0;
+      for (var i = 1; i <= total; i++) {
+        if (form.querySelector('input[name="q' + i + '"]:checked')) n++;
+      }
+      bar.style.width = Math.round((n / total) * 100) + "%";
+    }
+    form.addEventListener("change", updateBar);
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var fd = new FormData(form);
+      var scores = { santos: 0, ravenna: 0, lamponne: 0, medina: 0 };
+      for (var i = 1; i <= total; i++) {
+        var v = fd.get("q" + i);
+        if (v && scores[v] !== undefined) scores[v]++;
+      }
+      var best = "santos", max = -1;
+      Object.keys(scores).forEach(function (k) {
+        if (scores[k] > max) { max = scores[k]; best = k; }
+      });
+      var r = bios[best];
+      document.getElementById("resName").textContent = "Tu perfil: " + r.name;
+      document.getElementById("resText").textContent = r.text;
+      document.getElementById("resExtra").textContent = r.extra;
+      document.getElementById("quizResult").classList.add("show");
+      document.getElementById("quizResult").scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
+
+    document.getElementById("retryQuiz").addEventListener("click", function (e) {
+      e.preventDefault();
+      form.reset();
+      updateBar();
+      document.getElementById("quizResult").classList.remove("show");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  })();
+  </script>
+</body>
+</html>
